@@ -1,0 +1,42 @@
+.nav {
+    padding: 0;
+    display: block;
+}
+
+.nav_item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    list-style: $no;
+    margin-bottom: 10px;
+    a {
+        text-decoration: $no;
+        color: #000;
+    }
+    &:hover {
+        background-color: $nav_color;
+        
+        a {
+            color: #fff;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .nav_item {
+        font-size: 35px;
+        display: inline-block;
+    }
+
+    .space {
+        margin-left: 20px;
+    }
+}

@@ -1,17 +1,6 @@
-* {
-    font-family: 'Mukta', sans-serif;
-}
+@import 'utilities/index.scss';
+@import 'base/index.scss';
 
-.header {
-    text-align: center;
-    font-size: 50px;
-}
+// import components partials
 
-.exampleHeader {
-    text-align: center; 
-}
-
-.project1 img {
-    height: 90%;
-    width: 60%;
-}
+@import 'components/index.scss';

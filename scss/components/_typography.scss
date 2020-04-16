@@ -1,0 +1,18 @@
+.text {
+    text-align: center;
+}
+
+.header {
+    font-size: 50px;
+}
+
+
+.name:hover {
+    transform: rotateZ(10deg);
+}
+
+@media (min-width: 1200px) {
+  .projectDescription {
+      font-size: 20px;
+  }
+} 

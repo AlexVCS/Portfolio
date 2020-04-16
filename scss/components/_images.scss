@@ -1,0 +1,51 @@
+.photoContainer img {
+    height: 95%;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+// styles for portfolio.html
+
+.project img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+}
+
+// styles for contact.html
+
+.twitterLogo {
+    padding-bottom: 15px;
+    height: 80vw;
+    width: 95vw;
+    &:hover {
+    transform: rotateY(190deg);
+    transition: all .5s;
+    }
+}
+
+.linkedinLogo {
+    padding-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+    .photoContainer {
+        height: 500px;
+        width: 400px;
+        
+    }
+
+    .photoContainer img {
+       margin: 0;
+       display: inline-flex;
+    }
+
+    .twitterLogo {
+        height: 20vw;
+        width: 50vw;
+    }
+}

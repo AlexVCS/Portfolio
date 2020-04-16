@@ -1,0 +1,25 @@
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bio {
+    width: 85vw;
+    font-size: 20px;
+}
+
+// Flex styles for contact.html
+
+.contactFlexContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 1200px) {
+    .flexHeader {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: baseline;
+    }
+}
