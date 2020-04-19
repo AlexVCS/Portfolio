@@ -16,8 +16,20 @@
       font-size: 20px;
   }
 
+  .text {
+      text-align: left;
+  }
+
+  .projectDescription {
+      text-align: center;
+  }
+
   .bio {
       width: unset;
       flex-basis: 75%;
+  }
+
+  .bodyCopy {
+    width: 700px;
   }
 } 
