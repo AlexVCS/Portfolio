@@ -21,6 +21,7 @@ body {
 .contactFlexContainer {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 @media (min-width: 1200px) {
@@ -243,7 +244,7 @@ body {
     width: 756px;
     height: 109px;
     position: absolute;
-    top: 65%;
+    top: 45%;
     left: 55%;
     transform: translate(-50%, -50%);
   }

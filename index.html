@@ -13,14 +13,14 @@
     <h1 class="header name text">Alex Curtis-Slep</h1>
     <nav role="navigation">
       <ul class="nav">
-        <li class="nav_item"><a href="portfolio.html">Portfolio</a></li>
+        <li class="nav_item page1"><a href="portfolio.html">Portfolio</a></li>
         <li class="nav_item space"><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
     </div>
-    <div class="flexContainer">
+    <div data-router-wrapper class="flexContainer">
       <div class="photoContainer"><img src="images/Alex.jpg" alt="Alex headshot"></div>
-      <div class="bio text">
+      <div  data-router-view="home" class="bio text">
         <p class="bodyCopy">
          Bonjour! I'm Alex, a developer who loves to code! Treehouse has been an awesome place for me to learn heaps of
          skills as I transition into a new career. HTML, CSS and Javascript are all integral parts of a developers base and I'm glad to have learned and grown throughout completing my TechDegree 😀
@@ -50,9 +50,9 @@
           <path d="M735.295 105L711.391 63.96H695.551V105H682.447V4.63198H714.847C722.431 4.63198 728.815 5.92798 733.999 8.51998C739.279 11.112 743.215 14.616 745.807 19.032C748.399 23.448 749.695 28.488 749.695 34.152C749.695 41.064 747.679 47.16 743.647 52.44C739.711 57.72 733.759 61.224 725.791 62.952L750.991 105H735.295ZM695.551 53.448H714.847C721.951 53.448 727.279 51.72 730.831 48.264C734.383 44.712 736.159 40.008 736.159 34.152C736.159 28.2 734.383 23.592 730.831 20.328C727.375 17.064 722.047 15.432 714.847 15.432H695.551V53.448Z" stroke="white" stroke-width="5"/>
           </svg>
 
-
       
     </div> <!-- closing tag for gridContainer -->
+    
     <script src="main.js"></script>
   </body>
 </html>
